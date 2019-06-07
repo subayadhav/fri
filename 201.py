@@ -1,4 +1,4 @@
-def catalan(n):
+def catalan(n1):
   if n1<=1:
     return 1
   else:
@@ -7,7 +7,7 @@ def catalan(n):
       r+=catalan(i)*catalan(n1-i-1)
     return r
 n1=int(input())
-if n<=1:
+if n1<=1:
   n1+=1
 else:
   n1=n1
